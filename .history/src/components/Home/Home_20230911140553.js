@@ -4,7 +4,6 @@ import logoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import './Home.scss'
-import Logo from './Logo/Logo';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -12,9 +11,9 @@ const Home = () => {
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.',]
 
     useEffect(() => {
-        setTimeout(() => {
+        return setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 9000)
+        }, 4000)
     }, [])
 
     return (
@@ -34,7 +33,6 @@ const Home = () => {
                 <h2>Fronted Developer / Javascript Expert / React</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
-            <Logo />
         </div>
     );
 };
