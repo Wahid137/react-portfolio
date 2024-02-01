@@ -1,0 +1,71 @@
+.about-page {
+  margin-left: 15%;
+  margin-top: 5%;
+  h1 {
+    font-size: 33px;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 0.8s backwards;
+    opacity: 0.8;
+  }
+}
+.skills-works {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.skills-ul {
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+}
+
+.skills-part {
+  margin-top: 10%;
+}
+.skills-ul {
+  list-style: none;
+}
+.list-item {
+  background-color: #edf2f8;
+  display: inline-block;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.list-item:hover {
+  background-color: #8d8d8d;
+}
+
+.title {
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-top: 5px;
+  animation: fadeIn 1s 1.7s backwards;
+  white-space: nowrap;
+  transition: all 0.7s;
+  display: block;
+  justify-content: center;
+}

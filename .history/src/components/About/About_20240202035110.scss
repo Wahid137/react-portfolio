@@ -1,0 +1,52 @@
+.about-page {
+  margin-left: 15%;
+  margin-top: 5%;
+  h1 {
+    font-size: 33px;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 1.1s backwards;
+    opacity: 0.8;
+  }
+}
+.skills-works {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.skills-ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.skills-part {
+  margin-top: 10%;
+}
+.skills-ul {
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  background-color: #edf2f8;
+  display: inline-block;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    font-size: 40px;
+    color: #f0db4f;
+    background-color: black;
+  }
+}
