@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Larana Bike Store",
+    "live": "https://resale-market-de8bd.web.app/",
+    "client": "https://github.com/Wahid137/resale-market-client",
+    "server": "https://github.com/Wahid137/resale-market-server",
+    "thumbnail": "https://images.unsplash.com/photo-1561642445-b789b9a7e6f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGN5Y2xlfGVufDB8fDB8fHww"
+  },
+  {
+    "id": 2,
+    "name": "Parlour Website",
+    "live": "https://jerins-parlour-26a0b.web.app/",
+    "client": "https://github.com/Wahid137/jerins-parlour-client",
+    "server": "https://github.com/Wahid137/jerins-parlour-server",
+    "thumbnail": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFybG91cnxlbnwwfHwwfHx8MA%3D%3D"
+  }
+]

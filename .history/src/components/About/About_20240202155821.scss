@@ -1,0 +1,139 @@
+.about-page {
+  margin-left: 15%;
+  margin-top: 5%;
+  h1 {
+    font-size: 33px;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: 'La Belle Aurore';
+    color: #ffd700;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 20px;
+    animation: fadeIn 1s 0.8s backwards;
+    opacity: 0.7;
+  }
+}
+.skills-works {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.skills-ul {
+  display: grid;
+  width: 60%;
+  grid-template-columns: auto auto auto;
+  row-gap: 2px;
+}
+
+.skills-part {
+  margin-top: 15%;
+}
+.skills-ul {
+  list-style: none;
+}
+.list-item {
+  background-color: #edf2e0;
+  display: inline-block;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.list-item:hover {
+  background-color: #8d8d8d;
+}
+
+.title {
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-top: 1px;
+  animation: fadeIn 1s 1.7s backwards;
+  white-space: nowrap;
+  transition: all 1s;
+  display: block;
+}
+
+.list-item-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-group {
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  filter: blur(0);
+  transition: filter 0.3s;
+}
+
+.card:hover .card-img {
+  filter: blur(5px);
+}
+
+.icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.card:hover .icon-container {
+  display: block;
+}
+
+.icon-container i {
+  margin: 0 10px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  background-color: #3498db;
+}
+
+/* Additional styles for icons, you can replace these with your icon styles */
+.icon-container i:first-child {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icon-container i:last-child {
+  background-color: #e74c3c;
+  padding: 10px;
+  border-radius: 50%;
+}
