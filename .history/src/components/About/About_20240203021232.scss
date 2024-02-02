@@ -165,9 +165,6 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {
-  .works-part {
-    display: none;
-  }
   .about-page {
     margin-left: 15%;
     margin-top: 15%;
@@ -184,38 +181,24 @@
       animation: fadeIn 1s 0.8s backwards;
       opacity: 0.7;
     }
+  }
+  .card-group {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  .about-page {
-    margin-left: 15%;
-    margin-top: 15%;
-    h1 {
-      font-size: 23px;
-      margin: 0;
-      font-weight: 200;
-      letter-spacing: 2px;
-      font-family: 'La Belle Aurore';
-      color: #ffd700;
-      position: absolute;
-      margin-top: 18px;
-      margin-left: 60px;
-      animation: fadeIn 1s 0.8s backwards;
-      opacity: 0.7;
-    }
-  }
-
-  .skills-works {
-    margin-top: 10%;
-  }
+@media only screen and (min-width: 768px) {
   .works-part {
-    margin-left: 10%;
-    margin-top: 0%;
-    .card-group {
-      display: flex;
-      flex-direction: column;
-    }
+    display: none;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

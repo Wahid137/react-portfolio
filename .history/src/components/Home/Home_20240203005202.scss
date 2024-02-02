@@ -128,28 +128,8 @@
   .logo-container {
     display: none;
   }
-  .home-page {
-    .text-zone {
-      position: absolute;
-      left: 22%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      max-height: 90%;
-    }
-    .skill-item {
-      position: absolute;
-      left: 45%;
-      top: 5%;
-      .js-icon {
-        margin-left: 150px;
-        margin-bottom: 10px;
-      }
-      .tailwind-icon {
-        margin-left: 150px;
-        margin-top: 10px;
-      }
-    }
+  .skill-item {
+    display: none;
   }
 }
 
@@ -158,52 +138,8 @@
   .logo-container {
     display: none;
   }
-  .home-page {
-    .text-zone {
-      position: absolute;
-      left: 22%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      max-height: 90%;
-    }
-    .skill-item {
-      position: absolute;
-      left: 45%;
-      top: 5%;
-      .js-icon {
-        margin-left: 150px;
-        margin-bottom: 10px;
-      }
-      .tailwind-icon {
-        margin-left: 150px;
-        margin-top: 10px;
-      }
-    }
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .logo-container {
-    display: none;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .logo-container {
-    display: block;
-  }
   .skill-item {
     display: none;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .skill-item {
-    display: block;
   }
   .home-page {
     .text-zone {
@@ -256,15 +192,6 @@
         animation: fadeIn 1s 1.7s backwards;
         opacity: 0.6;
       }
-
-      img {
-        width: 32px;
-        margin-left: 20px;
-        opacity: 0;
-        height: auto;
-        animation: rotateIn 1s linear both;
-        animation-delay: 1s;
-      }
     }
 
     h2 {
@@ -276,26 +203,29 @@
       letter-spacing: 3px;
       animation: fadeIn 1s 1.7s backwards;
     }
+  }
+}
 
-    .flat-button {
-      color: #ffd700;
-      font-size: 13px;
-      font-weight: 400;
-      letter-spacing: 4px;
-      font-family: sans-serif;
-      text-decoration: none;
-      padding: 10px 18px;
-      border: 1px solid #ffd700;
-      margin-top: 25px;
-      float: left;
-      animation: fadeIn 1s 1.7s backwards;
-      white-space: nowrap;
-      transition: all 0.7s;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo-container {
+    display: none;
+  }
+  .skill-item {
+    display: block;
+  }
+}
 
-      &:hover {
-        background-color: #ffd700;
-        color: #333;
-      }
-    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo-container {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .skill-item {
+    display: block;
   }
 }
